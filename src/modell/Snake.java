@@ -2,10 +2,10 @@ package modell;
 
 public class Snake {
 
-	private int snakeLength;
+	private int snakeLength = 3;
 	private int snakeHeadX;
 	private int snakeHeadY;
-	private int snakeMAXlength;
+	private int snakeMAXlength = 30;
 	
 	public void setSnake(int x, int y) {
 		snakeHeadX = x;
